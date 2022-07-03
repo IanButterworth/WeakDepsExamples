@@ -4,7 +4,8 @@ version = "0.1.0"
 
 [deps]
 B = "4d3288b3-3afc-4bb6-85f3-489fffe514c8"
-SparseArrays = "2f01184e-e22b-5df5-ae63-d93ebab69eaf"
+OffsetArrays = "6fe1bfb0-de20-5000-8ca7-80f57d26f881"
 
 [compat]
 B = "0.1"
+OffsetArrays = "1.12"

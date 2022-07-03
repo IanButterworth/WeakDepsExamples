@@ -2,10 +2,13 @@ module B
 
 using Example
 
-broadcast_mul(x::AbstractArray) = rand(2, 2) .* x
-
-if using SparseArrays
-    broadcast_mul(x::SparseMatrixCSC) = rand(2, 2) .* x
+function foo(x::AbstractArray)
+    @info "B.jl: A custom logging method for AbstractArray" x
+end
+if using OffsetArrays
+    function foo(x::OffsetArray)
+        @info "B.jl: A custom logging method for OffsetArray" x
+    end
 end
 
 greet(n::String) = Example.hello(n)
