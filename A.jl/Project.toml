@@ -1,0 +1,10 @@
+name = "A"
+uuid = "d4ef3d4a-8e22-4710-85d8-c6cf2eb9efca"
+version = "0.1.0"
+
+[deps]
+B = "4d3288b3-3afc-4bb6-85f3-489fffe514c8"
+SparseArrays = "2f01184e-e22b-5df5-ae63-d93ebab69eaf"
+
+[compat]
+B = "0.1"
