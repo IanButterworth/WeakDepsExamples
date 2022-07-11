@@ -2,7 +2,7 @@
 
 julia_version = "1.9.0-DEV"
 manifest_format = "2.0"
-project_hash = "77bd68d47ad74d7b0857e7f21a15572862e26f93"
+project_hash = "33309ad1a590553bb684125ab24543e7ad9a48e5"
 
 [[deps.Adapt]]
 deps = ["LinearAlgebra"]
@@ -13,13 +13,6 @@ version = "3.3.3"
 [[deps.Artifacts]]
 uuid = "56f22d72-fd6d-98f1-02f0-08ddc0907c33"
 
-[[deps.B]]
-deps = ["Example"]
-path = "../B.jl"
-uuid = "4d3288b3-3afc-4bb6-85f3-489fffe514c8"
-version = "0.1.0"
-weakdeps = ["OffsetArrays"]
-
 [[deps.CompilerSupportLibraries_jll]]
 deps = ["Artifacts", "Libdl"]
 uuid = "e66e0078-7015-5450-92f7-15fbd957f2ae"
@@ -29,6 +22,13 @@ version = "0.5.2+0"
 git-tree-sha1 = "46e44e869b4d90b96bd8ed1fdcf32244fddfb6cc"
 uuid = "7876af07-990d-54b4-ab0e-23690620f79a"
 version = "0.5.3"
+
+[[deps.HasWeakDeps]]
+deps = ["Example"]
+path = "../HasWeakDeps.jl"
+uuid = "4d3288b3-3afc-4bb6-85f3-489fffe514c8"
+version = "0.1.0"
+weakdeps = ["OffsetArrays"]
 
 [[deps.Libdl]]
 uuid = "8f399da3-3557-5675-b5ff-fb832c97cbdb"
