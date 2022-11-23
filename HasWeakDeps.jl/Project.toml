@@ -8,6 +8,9 @@ Example = "7876af07-990d-54b4-ab0e-23690620f79a"
 [weakdeps]
 OffsetArrays = "6fe1bfb0-de20-5000-8ca7-80f57d26f881"
 
+[gluepkgs]
+GlueOffsetArrays = "OffsetArrays"
+
 [compat]
 Example = "0.5"
 OffsetArrays = "1.12"

@@ -29,6 +29,7 @@ path = "../HasWeakDeps.jl"
 uuid = "4d3288b3-3afc-4bb6-85f3-489fffe514c8"
 version = "0.1.0"
 weakdeps = ["OffsetArrays"]
+gluepkgs = {GlueOffsetArrays = "OffsetArrays"}
 
 [[deps.Libdl]]
 uuid = "8f399da3-3557-5675-b5ff-fb832c97cbdb"
